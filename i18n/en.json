@@ -1,0 +1,32 @@
+{
+    "widget": {
+        "name": "Sonax Connector",
+        "short_description": "Connect Sonax Virtual PBX to Kommo and make click-to-call calls with recording and logging directly on the platform.",
+        "description": "The Sonax Connector integrates Sonax Virtual PBX with Kommo, allowing you to make calls to leads and contacts directly through the platform using the click-to-call feature.",
+        "tour_description": "Click-to-Call: Start calls to leads or contacts with just one click, directly from Kommo, without needing to switch between platforms.<br><br>Call History: Track the full history of calls, including date, duration, and recording, and listen to conversations without leaving Kommo."
+    },
+    "settings": {
+        "login": "Login",
+        "api_key": "API Key",
+        "account": "Account",
+        "app_key": "Client ID",
+        "token": "Token",
+        "user_phones": "User Configuration"
+    },
+    "advanced": {
+        "title": "Connector Settings"
+    },
+    "salesbot": {
+        "button_title": "Button Title",
+        "button_caption": "Button Description",
+        "button_title_default_value": "Default Button Title",
+        "button_caption_default_value": "Default Button Description",
+        "text": "Text",
+        "number": "Number",
+        "url": "URL",
+        "handler_name": "Handler Name"
+    },
+    "dp": {
+        "message": "Message"
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "widget": {
+        "name": "Sonax Conector",
+        "short_description": "Conecte o PABX Virtual Sonax ao Kommo e realize ligações click-to-call com registro e gravação direto na plataforma.",
+        "description": "O Sonax Conector integra o PABX Virtual da Sonax ao Kommo, permitindo que você realize ligações para leads e contatos diretamente pela plataforma com a funcionalidade click-to-call.",
+        "tour_description": "Click-to-Call: Inicie ligações para leads ou contatos com apenas um clique, diretamente do Kommo, sem precisar alternar entre plataformas.<br><br>Retorno das Ligações: Acompanhe o histórico completo das chamadas, com data, duração e gravação, e ouça as conversas sem sair do Kommo."
+    },
+    "settings": {
+        "login": "Login",
+        "api_key": "Chave da API",
+        "account": "Conta",
+        "app_key": "Client ID",
+        "token": "Token",
+        "user_phones": "Configuração de usuarios"
+    },
+    "advanced": {
+        "title": "Configurações do Conector"
+    },
+    "salesbot": {
+        "button_title": "Título do botão",
+        "button_caption": "Descrição do botão",
+        "button_title_default_value": "Título padrão do botão",
+        "button_caption_default_value": "Descrição padrão do botão",
+        "text": "Texto",
+        "number": "Número",
+        "url": "URL",
+        "handler_name": "Nome do manipulador"
+    },
+    "dp": {
+        "message": "Mensagem"
+    }
+}
