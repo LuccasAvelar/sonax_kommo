@@ -9,7 +9,7 @@
         "login": "Login",
         "api_key": "Chave da API",
         "account": "Conta",
-        "app_key": "Client ID",
+        "app_key": "Cliente ID",
         "token": "Token",
         "user_phones": "Configuração de usuarios"
     },
