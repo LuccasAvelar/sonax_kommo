@@ -23,6 +23,8 @@ define(["jquery", "underscore", "twigjs"], ($, _, Twig) => {
           APP.addNotificationCallback(this.get_settings().widget_code, (data) => {});
         }
 
+        const leads = response._embedded.leads;
+
         this.add_action("phone", (data) => {
           this.crm_post(
             "https://n8n.sonax.io/webhook/5c0eace9-b5e7-4dc3-8633-154143ce7293",
@@ -32,6 +34,7 @@ define(["jquery", "underscore", "twigjs"], ($, _, Twig) => {
               token: this.params.token,
               system: system,
               phones: this.params.phones,
+              lead: leads,
             },
             () => {
               alert("Chamada iniciada");
